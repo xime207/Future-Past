@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.encabezado {
+    height: 5vw;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    width: 20%;
+    display: flex;
+    align-items: center
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-content: margin-right;
+    width: 80%;
+    align-items: center;
+    color: black;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 12px;
+}
+
+.articulo1 {
+    font-size: 14px;
+}
+
+.articulo2 {
+    font-size: 14px;
+}
+
+.conjunto{
+   flex-wrap: wrap;
+}
+
+.caja {
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde {
+    background-color: yellowgreen;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.marron {
+    background-color: brown;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.gris {
+    background-color: grey;
+}
+
+.negro {
+    background-color: black;
+}
+
+.violeta {
+    background-color: purple;
+}
+
+.articulo {
+    font-size: 14px;
+    margin: 1em;
+}
+
+.footer {
+    background-color: black;
+    font-weight: bold; 
+    font-size: 12px;
+    height: 5vw;
+    align-items: center;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
