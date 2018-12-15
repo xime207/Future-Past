@@ -10,6 +10,7 @@
 .encabezado {
     height: 5vw;
 }
+
 .logo {
     font-size: 30px;
     font-weight: bold;
@@ -35,6 +36,9 @@
     font-size: 12px;
 }
 
+.banner {
+
+}
 .articulo1 {
     font-size: 14px;
 }
@@ -102,6 +106,7 @@
 }
 
 .footer {
+    display: flex;
     background-color: black;
     font-weight: bold; 
     font-size: 12px;
@@ -115,3 +120,8 @@
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 786px) {
+    .caja1 {
+        background: yellow
+    }
